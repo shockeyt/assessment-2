@@ -45,7 +45,7 @@ testJake();
 var finnmove = 30;
 var totalmargin = 0;
 var jakemove = 30;
-
+// number 810 is at end of page
 //KEYDOWN EVENT
 window.addEventListener("keydown", checkKeyPressed, false);
 // window.addEventListener("keypress", dealWithKeyboard, false);
@@ -57,17 +57,26 @@ window.addEventListener("keydown", checkKeyPressed, false);
         // alert("The 'a' key is pressed.");
         
         totalmargin += finnmove;
-        console.log(totalmargin);
+        console.log(string);
         finn.style.marginLeft = string;
         // finn.style.marginLeft = totalmargin + finnmove;
     } else if (e.keyCode == "66") {
     	// 'b' key pressed
     	totalmargin += jakemove;
+    	console.log(totalmargin);
     	var stringb = String(totalmargin) + 'px';
     	jake.style.marginLeft = stringb;
     }
-	}
- 
+	
+ function Winner () {
+ 	if (string == "810px") {
+ 		alert("finn reached 810");
+ 	} else if (stringb == "810px") {
+ 		alert("jake reached 810");
+ 	}
+ }
+ Winner();
+ }
 // function dealWithKeyboard(e) {
 //     // gets called when any of the keyboard events are overheard
     

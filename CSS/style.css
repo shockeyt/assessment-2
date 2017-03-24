@@ -24,10 +24,20 @@ a {
 }
 
 .finndiv {
+	background-image: url("../CSS/Images/Finn.png");
+	background-repeat: no-repeat;
+	background-size: 200px;
+	width: 200px;
+	height: 267px;
 
+	/*margin: 0 auto;*/
 }
 .jakediv {
-	
+	background-image: url("../CSS/Images/jake.png");
+	background-repeat: no-repeat;
+	background-size: 200px;
+	width: 200px;
+	height: 177px;
 }
 /*IMG's*/
 .finn {

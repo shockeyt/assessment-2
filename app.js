@@ -41,6 +41,8 @@ function testJake() {
 }
 testJake();
 
+var finnmove = 30;
+var totalmargin = 0;
 //KEYDOWN EVENT
 window.addEventListener("keydown", checkKeyPressed, false);
 // window.addEventListener("keypress", dealWithKeyboard, false);
@@ -48,8 +50,11 @@ window.addEventListener("keydown", checkKeyPressed, false);
 
 	function checkKeyPressed(e) {
     if (e.keyCode == "65") {
+
         // alert("The 'a' key is pressed.");
-        finn.style.marginLeft = "30px";
+        totalmargin += finnmove;
+        console.log(totalmargin);
+        // finn.style.marginLeft = totalmargin + finnmove;
     } else if (e.keyCode == "66") {
     	// 'b' key pressed
     	jake.style.marginLeft = "60px";

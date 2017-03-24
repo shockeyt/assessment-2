@@ -1,15 +1,24 @@
 console.log("JS is working");
 
-// var finn = document.getElementsByTagName("img").addEventListener("click", function() {
-// 	alert("clicked finn");
-// });
-// console.log(finn);
+var finn = document.querySelector(".finndiv");
 
-// var jake = document.getElementsByClassName(".jakediv");
-// console.log(jake);
+console.log(finn);
 
-// function testFinn() {
-	// finn.addEventListener("click", alert("clicked finn"));
+var jake = document.querySelector(".jakediv");
+console.log(jake);
+
+function testFinn() {
+	finn.addEventListener("click", function() {
+		alert("clicked finn");
 	
-//}
-// testFinn();
+});
+}
+testFinn();
+
+function testJake() {
+	jake.addEventListener("click", function() {
+		alert("clicked jake");
+	
+});
+}
+testJake();

@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	font-size: 80px;
+}
+a {
+	display: inherit;
+	text-align: center;
+	font-size: 50px;
+}
+.container {
+	background-image: url("../CSS/Images/adventuretime.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+}
+.gamebody {
+	
+	width: 100%;
+}
+
+.finndiv {
+
+}
+.jakediv {
+	
+}
+/*IMG's*/
+.finn {
+	width: 200px;
+}
+.jake {
+	width: 200px;
+}

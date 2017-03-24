@@ -41,6 +41,7 @@ function testJake() {
 }
 testJake();
 
+//need to convert these numbers to px strings
 var finnmove = 30;
 var totalmargin = 0;
 //KEYDOWN EVENT
@@ -50,10 +51,12 @@ window.addEventListener("keydown", checkKeyPressed, false);
 
 	function checkKeyPressed(e) {
     if (e.keyCode == "65") {
-
+    	var string = String(totalmargin) + 'px';
         // alert("The 'a' key is pressed.");
+        
         totalmargin += finnmove;
         console.log(totalmargin);
+        finn.style.marginLeft = string;
         // finn.style.marginLeft = totalmargin + finnmove;
     } else if (e.keyCode == "66") {
     	// 'b' key pressed

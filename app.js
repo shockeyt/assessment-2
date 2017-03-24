@@ -44,6 +44,8 @@ testJake();
 //need to convert these numbers to px strings
 var finnmove = 30;
 var totalmargin = 0;
+var jakemove = 30;
+
 //KEYDOWN EVENT
 window.addEventListener("keydown", checkKeyPressed, false);
 // window.addEventListener("keypress", dealWithKeyboard, false);
@@ -60,7 +62,9 @@ window.addEventListener("keydown", checkKeyPressed, false);
         // finn.style.marginLeft = totalmargin + finnmove;
     } else if (e.keyCode == "66") {
     	// 'b' key pressed
-    	jake.style.marginLeft = "60px";
+    	totalmargin += jakemove;
+    	var stringb = String(totalmargin) + 'px';
+    	jake.style.marginLeft = stringb;
     }
 	}
  

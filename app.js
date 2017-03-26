@@ -81,6 +81,17 @@ window.addEventListener("keydown", checkKeyPressed, false);
 
 	 
  }
+
+ var reset = document.querySelector('.button');
+ console.log(reset);
+ function resetGame () {
+ 	reset.addEventListener("click", function() {
+ 		location.reload();
+ 		// alert("clicked reset button");
+ 	});
+ 	
+ }
+ resetGame();
 // function dealWithKeyboard(e) {
 //     // gets called when any of the keyboard events are overheard
     

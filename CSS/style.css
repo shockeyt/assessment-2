@@ -3,12 +3,12 @@
 }
 h1 {
 	text-align: center;
-	font-size: 80px;
+	font-size: 60px;
 }
 a {
 	display: inherit;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 }
 .gamebody {
 	margin: 0;
@@ -17,7 +17,7 @@ a {
 }
 .container {
 	background-image: url("../CSS/Images/adventuretime2.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 1600px;
 	height: 900px;
@@ -29,6 +29,30 @@ a {
 	width: 1010px;
 	margin: auto;
 	margin-top: 80px;
+}
+.playerA {
+	display: inline-block;
+	float: left;
+	margin-left: 300px;
+}
+.playerB {
+	display: inline-block;
+	float: right;
+	margin-right: 300px;
+}
+.start {
+	display: inline-block;
+	text-align: left;
+	float: left;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: 700px;
+}
+.finish {
+	display: inline-block;
+	text-align: right;
+	float: right;
+	padding: 5px;
 }
 .button {
 	display: block;

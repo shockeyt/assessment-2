@@ -1,14 +1,22 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 h1 {
+	/*display: inline-block;*/
 	text-align: center;
 	font-size: 60px;
+	color: white;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding: 10px 0;
+	
 }
 a {
 	display: inherit;
 	text-align: center;
+	text-decoration: none;
 	font-size: 30px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 .gamebody {
 	margin: 0;
@@ -19,7 +27,19 @@ a {
 	background-image: url("../CSS/Images/adventuretime2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 1600px;
+	/*width: 1600px;*/
+	width: 100%;
+	/*max-width: 1024px;*/
+	height: 900px;
+	margin: 0 auto;
+}
+.landingContainer {
+	background-image: url("../CSS/Images/adventuretime2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*width: 1600px;*/
+	width: 100%;
+	/*max-width: 1024px;*/
 	height: 900px;
 	margin: 0 auto;
 }
@@ -34,29 +54,42 @@ a {
 	display: inline-block;
 	float: left;
 	margin-left: 300px;
+	color: blue;
+	font-size: 24px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 .playerB {
 	display: inline-block;
 	float: right;
 	margin-right: 300px;
+	color: yellow;
+	font-size: 24px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 .start {
 	display: inline-block;
 	text-align: left;
 	float: left;
 	padding: 5px;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 700px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 .finish {
 	display: inline-block;
 	text-align: right;
 	float: right;
 	padding: 5px;
+	font-size: 24px;
+	font-weight: 700px;
+	font-family: 'Gloria Hallelujah', cursive;
 }
 .button {
 	display: block;
-	text-align: center;
+	text-align: center;	
+}
+button {
+	font-size: 24px;
 }
 
 .finndiv {

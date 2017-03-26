@@ -42,10 +42,10 @@ function testJake() {
 testJake();
 
 //need to convert these numbers to px strings
-var finnmove = 30;
+var finnmove = 10;
 var totalmarginf = 0;
 var totalmarginj = 0;
-var jakemove = 30;
+var jakemove = 10;
 // number 810 is at end of page
 //KEYDOWN EVENT
 window.addEventListener("keydown", checkKeyPressed, false);
@@ -72,9 +72,9 @@ window.addEventListener("keydown", checkKeyPressed, false);
 	
 	 function Winner () {
 	 	if (string == "810px") {
-	 		alert("finn reached 810");
+	 		alert("FINN WINS!!");
 	 	} else if (stringb == "810px") {
-	 		alert("jake reached 810");
+	 		alert("JAKE WINS!!");
 	 	}
 	 }
 	 Winner();

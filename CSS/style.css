@@ -213,11 +213,15 @@ button {
 		background-color: white;
 		border: 3px solid black;
 		padding: 10px 0;
+		margin: 0 auto;
 	}
 	.section1 {
 		background-color: orange;
-		height: 340px;
+		height: 352px;
 		margin: 20px;
+		margin: 5px auto;
+		float: none;
+		width: 96%;
 	}
 	.bio1, .bio2, .bio3 {
 		font-size: 22px;
@@ -228,6 +232,9 @@ button {
 		margin: 20px;
 		padding-top: 408px;
 		color: red;
+		float: none;
+		width: 96%;
+		margin: 5px auto;
 	}
 
 	.section3 {
@@ -235,10 +242,14 @@ button {
 		height: 340px;
 		margin: 20px;
 		padding-top: 175px;
+		float: none;
+		width: 96%;
+		margin: 5px auto;
 	}
 	.homeFooter {
 		background-color: white;
 		border: 3px solid black;
 		padding: 10px 0;
+		margin: 5px auto;
 	}
 }

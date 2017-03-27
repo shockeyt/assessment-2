@@ -43,6 +43,9 @@ a {
 	height: 900px;
 	margin: 0 auto;
 }
+.homeHeader {
+	background-color: black;
+}
 .race {
 	border-left: 3px solid black;
 	border-right: 5px dashed black;
@@ -114,4 +117,27 @@ button {
 }
 .jake {
 	width: 200px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 667px) {
+	.homeHeader {
+		background-color: yellow;
+	}
+	.section1 {
+		background-color: orange;
+		height: 300px;
+		margin: 20px;
+
+	}
+	.section2 {
+		background-color: red;
+		height: 300px;
+		margin: 20px;
+	}
+	.section3 {
+		background-color: green;
+		height: 300px;
+		margin: 20px;
+	}
 }

@@ -119,8 +119,58 @@ button {
 	width: 200px;
 }
 
+.section1 {
+		background-image: url("../CSS/Images/keeps it real.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*height: 300px;*/
+		margin: 20px;
+
+}
+.section2 {
+	background-image: url("../CSS/Images/Finn2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*height: 300px;*/
+	margin: 20px;
+}
+.section3 {
+	background-image: url("../CSS/Images/jake2.png");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	/*height: 300px;*/
+	margin: 20px;
+}
+.bio1, .bio2, .bio3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: white;
+}
+.bio1 {
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.bio2 {
+	height: 50%;
+	display: table;
+	/*margin-top: 150px;*/
+}
+.bio3 {
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.homeFooter {
+	background-color: yellow;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 667px) {
+	.landingContainer {
+		/*height: 1091px;*/
+		height: 100%;
+	}
+
 	.homeHeader {
 		background-color: yellow;
 	}
@@ -132,12 +182,16 @@ button {
 	}
 	.section2 {
 		background-color: red;
-		height: 300px;
+		height: 500px;
 		margin: 20px;
+		padding-top: 188px;
 	}
 	.section3 {
 		background-color: green;
 		height: 300px;
 		margin: 20px;
+	}
+	.homeFooter {
+		background-color: black;
 	}
 }

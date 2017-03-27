@@ -118,29 +118,53 @@ button {
 .jake {
 	width: 200px;
 }
+.landingContainer {
+		/*height: 1091px;*/
+		height: 100%;
+}
+
+.homeHeader {
+	background-color: white;
+	border: 3px solid black;
+	padding: 10px 0;
+	width: 96%;
+	margin: 0 auto;
+}
 
 .section1 {
 		background-image: url("../CSS/Images/keeps it real.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 700px;
 		/*height: 300px;*/
-		margin: 20px;
+		width: 96%;
+		margin: 2% 0 2% 2%;
 		border: 3px solid black;
 }
 .section2 {
 	background-image: url("../CSS/Images/Finn2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 700px;
 	/*height: 300px;*/
-	margin: 20px;
+	width: 47%;
+	margin-left: 2%;
+	margin-top: 0%;
+	margin-bottom: 2%;
+	float: left;
 	border: 3px solid black;
 }
 .section3 {
 	background-image: url("../CSS/Images/jake2.png");
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;
+	height: 700px; 
 	/*height: 300px;*/
-	margin: 20px;
+	width: 47%;
+	margin-right: 2%;
+	margin-top: 0%;
+	margin-bottom: 2%;
+	float: right;
 	border: 3px solid black;
 }
 .bio1, .bio2, .bio3 {
@@ -166,7 +190,13 @@ button {
 	height: 100%;
 }
 .homeFooter {
-	background-color: yellow;
+		background-color: white;
+		border: 3px solid black;
+		padding: 10px 0;
+		width: 96%;
+		margin: 0 auto;	
+
+		clear: both;
 }
 .bottomLinks {
 	padding: 5px 0;

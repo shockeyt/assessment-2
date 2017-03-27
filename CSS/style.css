@@ -6,7 +6,7 @@ h1 {
 	/*display: inline-block;*/
 	text-align: center;
 	font-size: 60px;
-	color: white;
+	color: black;
 	font-family: 'Gloria Hallelujah', cursive;
 	padding: 10px 0;
 	
@@ -125,7 +125,7 @@ button {
 		background-size: cover;
 		/*height: 300px;*/
 		margin: 20px;
-
+		border: 3px solid black;
 }
 .section2 {
 	background-image: url("../CSS/Images/Finn2.png");
@@ -133,6 +133,7 @@ button {
 	background-size: cover;
 	/*height: 300px;*/
 	margin: 20px;
+	border: 3px solid black;
 }
 .section3 {
 	background-image: url("../CSS/Images/jake2.png");
@@ -140,19 +141,23 @@ button {
 	background-size: cover; 
 	/*height: 300px;*/
 	margin: 20px;
+	border: 3px solid black;
 }
 .bio1, .bio2, .bio3 {
 	font-family: 'Gloria Hallelujah', cursive;
-	background-color: white;
+	/*background-color: white;*/
+	padding: 10px;
 }
 .bio1 {
 	width: 50%;
 	float: left;
 	height: 100%;
+	
 }
 .bio2 {
 	height: 50%;
 	display: table;
+	background-color: white;
 	/*margin-top: 150px;*/
 }
 .bio3 {
@@ -163,6 +168,9 @@ button {
 .homeFooter {
 	background-color: yellow;
 }
+.bottomLinks {
+	padding: 5px 0;
+}
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 667px) {
@@ -172,26 +180,35 @@ button {
 	}
 
 	.homeHeader {
-		background-color: yellow;
+		background-color: white;
+		border: 3px solid black;
+		padding: 10px 0;
 	}
 	.section1 {
 		background-color: orange;
-		height: 300px;
+		height: 340px;
 		margin: 20px;
-
+	}
+	.bio1, .bio2, .bio3 {
+		font-size: 22px;
 	}
 	.section2 {
 		background-color: red;
 		height: 500px;
 		margin: 20px;
-		padding-top: 188px;
+		padding-top: 408px;
+		color: red;
 	}
+
 	.section3 {
-		background-color: green;
-		height: 300px;
+		/*background-color: green;*/
+		height: 340px;
 		margin: 20px;
+		padding-top: 175px;
 	}
 	.homeFooter {
-		background-color: black;
+		background-color: white;
+		border: 3px solid black;
+		padding: 10px 0;
 	}
 }
